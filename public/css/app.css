@@ -1,0 +1,73 @@
+.content {
+  position: absolute;
+  width: 1200px;
+  left: 50%;
+  margin-left: -600px;
+}
+.content .puzzle-entry,
+.content .puzzle-layout {
+  border: dotted 1px #ff8888;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+.content .puzzle-entry {
+  text-align: center;
+  padding: 10px;
+}
+.content .puzzle-entry button {
+  float: left;
+}
+.content .puzzle-layout {
+  min-height: 400px;
+}
+.content .puzzle-layout .word-wrap {
+  display: inline-block;
+}
+.content .puzzle-layout .guessed-letters {
+  height: 50px;
+  font-size: 35px;
+  line-height: 42px;
+}
+.content .puzzle-layout .letter-value {
+  position: relative;
+  display: inline-block;
+  font-size: 75px;
+  text-align: center;
+  vertical-align: top;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  border: dotted 1px #ffffff;
+}
+.content .puzzle-layout .letter-value.letter-space {
+  border: none;
+}
+.content .puzzle-layout .letter-value .letter-block {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ff4444;
+  opacity: 1;
+}
+.content .winner-container {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  width: 1000px;
+  left: 50%;
+  margin-left: -500px;
+}
+.content .winner-container .winner {
+  border-radius: 20px;
+  background-color: #5CB85C;
+  color: #ffffff;
+  padding: 50px;
+}
+.content .winner-container .winner h1 {
+  font-size: 150px;
+  font-weight: bold;
+}
+.content .winner-container .winner .winner-phrase {
+  font-size: 55px;
+}

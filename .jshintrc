@@ -1,0 +1,17 @@
+{
+    "globals": {
+        "it": true,
+        "describe": true,
+        "expect": true,
+        "beforeEach": true
+    },
+
+    "node" : true,
+    "browser" : true,
+
+    "boss" : true,
+    "eqeqeq": true,
+    "expr": true,
+
+    "debug": true
+}

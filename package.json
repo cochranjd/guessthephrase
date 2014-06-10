@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "express": "latest",
+        "grunt-ember-templates": "0.4.8",
+        "grunt-contrib-jshint": "latest",
+        "grunt-contrib-watch": "latest",
+        "grunt-contrib-less": "latest"
+    }
+}

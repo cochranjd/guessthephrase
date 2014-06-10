@@ -1,0 +1,92 @@
+.content {
+    position: absolute;
+    
+    width: 1200px;
+    left: 50%;
+    margin-left: -600px;
+
+    .puzzle-entry, .puzzle-layout {
+        border: dotted 1px #ff8888;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .puzzle-entry {
+        text-align: center;
+        padding: 10px;
+
+        button {
+            float: left;
+        }
+    }
+
+    .puzzle-layout {
+
+        min-height: 400px;
+
+        .word-wrap {
+            display: inline-block;
+        }
+
+        .guessed-letters {
+            height: 50px;
+            font-size: 35px;
+            line-height: 42px;
+        }   
+
+        .letter-value {
+            position: relative;
+            display: inline-block;
+
+            font-size: 75px;
+            text-align: center;
+
+            vertical-align: top;
+            margin: 5px;
+            width: 100px;
+            height: 100px;
+            border: dotted 1px #ffffff;
+
+            &.letter-space {
+                border: none;
+            }
+
+            .letter-block {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-color: #ff4444;
+                opacity: 1;
+            }
+        }
+    }
+
+    .winner-container {
+        position: absolute;
+        text-align: center;
+
+        top: 100px;
+
+        width: 1000px;
+        left: 50%;
+        margin-left: -500px;
+
+        .winner {
+            border-radius: 20px;
+            background-color: #5CB85C;
+            color: #ffffff;
+
+            padding: 50px;
+
+            h1 {
+                font-size: 150px;
+                font-weight: bold;
+            }
+
+            .winner-phrase {
+                font-size: 55px;
+            }
+        }
+    }
+}
